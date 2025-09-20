@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.container {
+  display: flex;
+  margin-top: 40px;
+  
+  gap: 30px;
+}
+.instaTextLogo {
+  width: 174px;
+  margin-bottom: 20px;
+}
+
+.login-box {
+  width: 350px;
+  border: 1px solid #dbdbdb;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  border-radius: #fbfbfb;
+  font-size: 14px;
+}
+
+.login-btn{
+  background-color: #3897f0;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.divider{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.line{
+  flex-grow: 1;
+  height: 1px;
+  background-color: #dbdbdb;
+}
+
+.divider p{
+  margin: 0 10px;
+  font-size: 14px;
+  color: #8e8e8e;
+}
+
+.login-with-facebook{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.fb-img{
+width: 20px;
+height: 20px;
+}
+
+.facebook-login{
+  color: #4897f0;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.forgot-password{
+  color: #3897f0;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.signup-box {
+
+  border: 1px solid #dbdbdb;
+  padding: 20px;
+  text-align: center;
+  width: 350px;
+
+}
+
+.signup-box a{
+  color: #3897f0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-box p{
+  font-size: 16px;
+}
+
+.download-section{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.download-section p{
+  margin-bottom: 20px;
+}
+
+.app-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-btn{
+  height: 40px;
+  margin: 0 5px;
+}
